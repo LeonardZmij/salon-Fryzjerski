@@ -1,3 +1,59 @@
 body{
     background-color: gray;
+    font-family: Helvetica;
+}
+#lewy:nth-child(1){
+    background-color: red;
+    height: 400px;
+    width: 70%;
+    background-color: snow;
+    text-align: center;
+}
+
+#lewy:nth-child(2){
+    background-color: red;
+    height: 400px;
+    width: 70%;
+    background-color: snow;
+    font-size: 150%;
+}
+
+#prawy:nth-child(1){
+    height: 150px;
+    width: 30%;
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+}
+
+#prawy:nth-child(2){
+    height: 350px;
+    width: 30%;
+    background-color: steelblue;
+    color: white;
+}
+
+#prawy:nth-child(3){
+    height: 300px;
+    width: 30%;
+    background-color: steelblue;
+    text-align: center;
+}
+
+#stopka{
+    background-color: steelblue;
+    color: white;
+}
+
+h2{
+font-size: 250%;
+}
+
+img{
+    padding: 4px;
+}
+
+img:hover{
+    padding: 3px;
+    border: solid 1px  steelblue;
 }
