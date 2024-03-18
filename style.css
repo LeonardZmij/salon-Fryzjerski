@@ -1,5 +1,4 @@
 body{
-    background-color: gray;
     font-family: Helvetica;
 }
 #lewy:nth-child(1){
@@ -56,4 +55,20 @@ img{
 img:hover{
     padding: 3px;
     border: solid 1px  steelblue;
+}
+
+#kontener{
+    display: flex;
+    flex-direction: row;
+}
+#lewy{
+    display: flex;
+    flex-direction: column;
+}
+#prawy h2{
+    text-align: center;
+}
+#prawy{
+    display: flex;
+    flex-direction: column;
 }
