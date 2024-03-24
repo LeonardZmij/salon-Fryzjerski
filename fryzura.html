@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Usługi fryzjerskie</title>
-    <script src="script.js"></script>
+    <script src="script.js"defer></script>
     <link rel="stylesheet" href="style.css">
     
 </head>
@@ -14,14 +14,15 @@
             <div> <a href="index.html"><h2>SALON FRYZJERSKI</h2></a>
             <img src="obraz2.jpg" alt="czesanie">
             </div>
-            <div>
-                <h3>Dziś promocja na Strzyżenie włosów</h3>
-                <input type="radio" name="" id="">Krótkie
-                <input type="radio" name="" id="">Średnie
-                <input type="radio" name="" id="">Półdługie
-                <input type="radio" name="" id="">Długie
+            <div id="promocje">
+                <h3>Dziś promocja na Strzyżenie włosów</h3><br>
+                <input type="radio" name="a" class="aaa" value="10" id="krotkie">Krótkie <br>
+                <input type="radio" name="a" class="aaa" value="20" id="srednie">Średnie<br>
+                <input type="radio" name="a" class="aaa" value="30" id="pol">Półdługie<br>
+                <input type="radio" name="a" class="aaa" value="40" id="dlugie">Długie<br>
 
-                <input type="button" value="Odkryj Promocję">
+                <input type="button" id="wyslij" value="Odkryj Promocję" onclick="sprawdz()">
+                <div id="wynik"></div>
             </div>
         </div>
         <div id="prawy">
@@ -40,13 +41,17 @@
                     <li>Klioryzacja</li>
                 </ol>
         </div>
+        <div>
+
+        </div>
             <div>
                 <img src="obraz1.jpg" alt="Fryzjer">
             </div>
         </div>
+
     </div>
 
-    <div>
+    <div id="stopka">
         <p>autor: 12345678901</p>
     </div>
 </body>

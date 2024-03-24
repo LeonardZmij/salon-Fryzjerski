@@ -2,8 +2,8 @@ body{
     font-family: Helvetica;
 }
 #lewy:nth-child(1){
-    background-color: red;
-    height: 400px;
+    /* background-color: red;
+    height: 400px; */
     width: 70%;
     background-color: snow;
     text-align: center;
@@ -11,37 +11,38 @@ body{
 
 #lewy:nth-child(2){
     background-color: red;
-    height: 400px;
+    /* height: 400px; */
     width: 70%;
     background-color: snow;
     font-size: 150%;
 }
 
-#prawy:nth-child(1){
-    height: 150px;
-    width: 30%;
+#prawy div:nth-child(1){
+    /* height: 150px; */
+    width: 120%;
     background-color: steelblue;
     color: white;
     text-align: center;
 }
 
-#prawy:nth-child(2){
-    height: 350px;
-    width: 30%;
+#prawy div:nth-child(2){
+    /* height: 350px; */
+    width: 120%;
     background-color: steelblue;
     color: white;
 }
 
-#prawy:nth-child(3){
-    height: 300px;
-    width: 30%;
+#prawy div:nth-child(3){
+    height: 120px;
     background-color: steelblue;
-    text-align: center;
+    width: 120%;
+
 }
 
 #stopka{
     background-color: steelblue;
     color: white;
+    /* margin-top: 130px; */
 }
 
 h2{
@@ -65,10 +66,23 @@ img:hover{
     display: flex;
     flex-direction: column;
 }
+#lewy p{
+    text-align: left;
+}
 #prawy h2{
     text-align: center;
 }
 #prawy{
     display: flex;
     flex-direction: column;
+}
+
+#prawy img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#promocje{
+    text-align: left;
 }
